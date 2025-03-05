@@ -1,1 +1,6 @@
-print(1+1)
+"""
+    DocString  
+    "COMENTÁRIOS" EM PYTHON
+
+"""
+# COMENTÁRIOS DE APENAS UMA LINHA
