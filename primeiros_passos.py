@@ -4,3 +4,4 @@ print("2","+","2","=",4)
 print("2","+","2","=",4, sep='-')
 
 """ FUNÇÃO SEP='' INDICA UM NOVO SEPARADOR PARA OS ESPAÇOS OU AONDE ESTA SEPARADO"""
+
