@@ -1,9 +1,9 @@
 nome = 'joão';
 sobrenome = 'Vitor'
-idade = 21;
 ano_de_nascimento = 2003;
+idade = 21;
 maior_de_idade = idade >= 18
-altura = float(168) / 100;
+altura = float(168)/100;
 
 
 
