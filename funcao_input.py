@@ -13,7 +13,7 @@ print('-------------')
 
 
 num_um = int(input('Digite um número: '))
-num_dois = int(input('Digite outro número: '))
+num_dois = int(input('Digite outro número: '))  
 
 soma_dos_numeros = num_um + num_dois
 
