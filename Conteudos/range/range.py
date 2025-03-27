@@ -1,0 +1,17 @@
+# RANGE GERA NÚMERO DE ACORDO COM O QUE FOI PASSADO RANGE(10), GERA 10 NÚMEROS
+
+for i in range(10):
+    print(i)
+    
+com_inicio = range(4,10)
+
+print(f'Esse é o meu range: {com_inicio}')
+
+
+'''
+O RANGE TEM AS OPÇÕES RANGE(DESCREVER O INICIO, QUANTIDADE DE NÚMEROS, QUANTOS NÚMEROS PULAM)
+
+EX:
+    RANGE(1,10,2) - COMEÇA NO NÚMERO 1, SÃO 10 NÚMEROS E PULA DE DOIS EM DOIS NÚEMROS
+
+'''
