@@ -2,7 +2,7 @@
     JOGO DA PALAVRA SECRETA 
 '''
 
-palavra_secreta = 'comi'
+palavra_secreta = 'nam'
 palavra_concatenada = ''
 
 while True:
@@ -26,5 +26,5 @@ while True:
             print('*')
             
             
-        if letra_secreta == palavra_secreta:
-            print('Finalizados')
+    if letra_secreta == palavra_secreta:
+        print('Finalizados')
