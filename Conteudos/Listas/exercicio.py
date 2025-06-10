@@ -16,7 +16,7 @@ while True:
         os.system('cls')
 
     elif opcoes == 'a':
-        print('teste')
+        lista.pop()
         os.system('cls')
 
     elif opcoes == 'l':
@@ -27,4 +27,3 @@ while True:
 
             print(indice, itens)
             contagem += 1
-        break
