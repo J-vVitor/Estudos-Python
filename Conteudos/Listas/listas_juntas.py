@@ -8,7 +8,7 @@ salas = [
 
     # 0           #1        #2
     # 2 Número correspondente ao número da lista em ordem;
-    ['Sara', 'Beatriz', 'Ingrid', (0, 1, 2, 3, 4, 5)],
+    ['Sara', 'Beatriz', 'Ingrid', (0, 1, 2, 'Vai aparacer esse aqui', 4, 5)],
 
 ]
 
