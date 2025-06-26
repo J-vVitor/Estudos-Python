@@ -1,3 +1,5 @@
+
+# REPLACE PARA SUBSTITUIR ALGO
 receber_cpf = input('Digite o CPF: ').replace('.', '').replace('-', '')
 contador = 10
 
@@ -12,6 +14,7 @@ for numeros in receber_cpf:
 
 # VALOR DOS NÚMEROS DO CPF MULTIPLICADO POR 10 E DIVIDIDO POR 11, COM O RESTO DA DIVISÃO
 valor_primeiro_digito = ((primeiro_digito * 10) % 11)
+valor_primeiro_digito if valor_primeiro_digito <= 9 else 0
 
 
 # TRANFORMANDO O VALOR DO PRIMEIRO DIGITO PARA STRING, FAZENDO A CONCATENAÇÃO COM O CPF DIGITADO

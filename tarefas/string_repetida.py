@@ -1,3 +1,8 @@
-ran = list(range(10))
+import random
 
-print(ran)
+cpf = ''
+
+for i in range(9):
+    cpf += str(random.randint(0, 8))
+
+print(cpf)
