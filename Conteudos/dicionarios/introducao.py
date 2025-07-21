@@ -1,7 +1,10 @@
 pessoa = {
     'nome': 'João',
-    'idade': '22'
-
+    'idade': 22,
+    'endereco': {
+        'rua': 'Avenida romualdo galvão'
+    },
 }
 
-print(pessoa['nome'])
+for atributos in pessoa:
+    print(f'{atributos} : {pessoa[atributos]} ')
