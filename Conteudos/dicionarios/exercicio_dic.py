@@ -12,28 +12,33 @@ perguntas = [
     {
         'Pergunta': 'Quanto é 45x3?',
         'Opções': ['95', '120', '48', '135'],
-        'Resposta': '25',
+        'Resposta': '135',
     }
 ]
+
+
+qntd_acerto = 0
 
 for pergunta in perguntas:
     print(pergunta['Pergunta'])
     print()
 
+    opcoes = pergunta['Opções']
+
+    qtd_opcoes = len(opcoes)
+
     # Opções de resposta para o usuário
-    for i, opcoes in enumerate(pergunta['Opções']):
-        print(f'{i})', opcoes)
+    for i, opcao in enumerate(opcoes):
+        print(f'{i})', opcao)
     print()
 
-    # Resposta do usuario
+    # Resposta que usuário dá:
     resposta_usuario = input('Digite sua resposta: ')
     print()
 
     # Validação se o usuário digitou um número
     if resposta_usuario.isdigit():
-        transform_int = int(resposta_usuario)
+        resposta_usu_int = int(resposta_usuario)
 
-        print(type(transform_int))
-
-    if transform_int <= len(pergunta['Opções']) and transform_int == pergunta['Opções']:
-        print('Você acertou')
+    if resposta_usu_int >= 0 and resposta_usuario == pergunta['Resposta']:
+        print('Acertou')
