@@ -36,6 +36,7 @@ for pergunta in perguntas:
     resposta_usuario = input('Digite sua resposta: ')
     print()
 
+    resposta_usu_int = None
     # Validação se o usuário digitou um número
     if resposta_usuario.isdigit():
         resposta_usu_int = int(resposta_usuario)
