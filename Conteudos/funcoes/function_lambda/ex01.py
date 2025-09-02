@@ -1,9 +1,7 @@
 # Inicio com lambda
 
-# MODO DE USAR
+# MODO DE USAR:
 
+        # somar = lambda x,y: x+y
 
-def somar(x, y): return x+y
-
-
-print(somar(2, 2))
+# LAMBDA seria para uma versão mauis antiga do vscode, pode apresentar error 
