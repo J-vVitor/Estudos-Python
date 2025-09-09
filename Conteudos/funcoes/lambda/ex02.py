@@ -12,32 +12,26 @@ lista = [
 
 # FEITO COM SORT:
 
-lista.sort(key = lambda item : item['nome'])
+lista.sort(key=lambda item: item['nome'])
 
-print('Ordenando pelo primeiro nome com sort:')
-print()
 for i in lista:
     print(i)
+    
+print()
 
 # COM SORTED:
 
+ord_first_name = sorted(lista,key=lambda item: item['nome'])
+ord_last_name = sorted(lista,key=lambda item: item['sobrenome'])
 
-def exibir(lista):
-    for nome in lista:
-        print(nome)
+def ordem(lista):
+    for nomes in lista:
+        print(nomes)
 
-l1 = sorted(lista, key = lambda item: item['nome'])
-l2 = sorted(lista, key = lambda item: item['sobrenome'])
-
+print('Ordenado pelo primeiro nome:')
+ordem(ord_first_name)
 print()
-print('Ordenados pelo primeiro nome:')
-print()
+print('Ordenado pelo segundo nome:')
+ordem(ord_last_name)
 
-exibir(l1)
-
-print()
-print('Ordenados pelo sobrenome:')
-print()
-
-exibir(l2)
 
